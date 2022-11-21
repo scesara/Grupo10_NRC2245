@@ -1,0 +1,165 @@
+body{
+    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    
+    
+    
+    background-image: url("fondo.jpeg" )
+    
+  }
+
+button{
+  background-color: #ff8800;
+  color: white;
+  border-radius: 40px;
+  width: 160px;
+  margin-left: 605px;
+  bottom: 50px; position: absolute;
+  height:60px;
+  padding: 5px 10px 5px 10px;
+}
+button:hover{
+  background-color: #975100;
+  color: rgb(255, 255, 255);
+
+}
+   
+ #navegador ul{
+  list-style-type: none;
+  text-align: center;
+  border-radius: 20px;
+ 
+}
+#navegador li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+  border-radius: 20px;
+}
+#navegador li a {
+  padding: 5px 10px 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: #ffa43c;
+  border: 1px solid rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 100px;
+  height: 100px;
+  width: 160px;
+  border: 2px solid black;
+}
+#navegador li a:hover{
+  background-color: #b15500;
+  color: #ffffff;
+  border-radius: 20px;
+} 
+
+
+#cam {position:absolute; top:80px}
+#cam {position:absolute; bottom:200px}
+#cam {position:absolute; left:500px}
+#cam {position:absolute; right:20px}
+
+ 
+#per {position:absolute; top:50px}
+#per {position:absolute; bottom:800px}
+#per {position:absolute; left:1270px}
+#per {position:absolute; right:20px}
+
+#llam {position:absolute; top:140px}
+#llam {position:absolute; bottom:800px}
+#llam {position:absolute; left:1270px}
+#llam {position:absolute; right:20px}
+
+#cor {position:absolute; top:220px}
+#cor {position:absolute; bottom:800px}
+#cor {position:absolute; left:1270px}
+#cor {position:absolute; right:20px}
+
+
+#fac {position:absolute; top:350px}
+#fac {position:absolute; bottom:800px}
+#fac {position:absolute; left:1270px}
+#fac {position:absolute; right:20px}
+
+#ins {position:absolute; top:450px}
+#ins {position:absolute; bottom:800px}
+#ins {position:absolute; left:1270px}
+#ins {position:absolute; right:20px}
+
+#twt {position:absolute; top:540px}
+#twt {position:absolute; bottom:800px}
+#twt {position:absolute; left:1270px}
+#twt {position:absolute; right:20px}
+
+
+
+
+
+
+
+
+
+.search {
+    margin: 20px;
+}
+
+
+
+
+
+.search > div {
+    display: inline-block;
+    position: relative;
+    filter: drop-shadow(0 1px #000000);
+}
+
+.search > div:after {
+    content: "";
+    background:  #ffa43c;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    right: 2px;
+    transform: rotate(135deg);
+}
+
+.search > div > input {
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px  #ffa43c;
+    outline: none;
+    border-radius: 35px;
+    transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+    color: #000000;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}
+
+.search > div > input:focus::placeholder {
+    opacity: 1;
+}
+
+.search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+    width: 250px;
+}
+
+#svg{
+  width: 300px;
+  height: 300px;}
+#svg {position:absolute; top:378px}
+#svg {position:absolute; bottom:800px}
+#svg {position:absolute; left:0px}
+#svg {position:absolute; right:20px}
+
