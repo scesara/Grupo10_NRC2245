@@ -1,0 +1,37 @@
+.Nuevaorden{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-width: medium;
+    
+    
+  }
+.entrada{
+ border-radius: 10px;
+ width: 70px;
+ height: 20px;
+}
+.entrada2{
+  border-radius: 10px;
+ width: 150px;
+ height: 20px;
+}
+.envio{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: aliceblue;
+  
+  background-color: rgb(28, 4, 59);
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+
+
+}
