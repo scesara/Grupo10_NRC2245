@@ -9,26 +9,8 @@ export default function Nuevaode() {
     const onSubmit= (d) =>
     alert(JSON.stringify(d))
 
-    // fetch('/EnvioExitoso',{ 
-    //   method: "POST",
-    //   body: JSON.stringify(onSubmit),
-    //   headers: {
-    //       Accept: "application/json",
-    //       "Content-Type": "application/json"
-    //       }
-    // })
-
-    // .then(res => res.json())
-    // .then(data => console.log(data))
-    // .catch(error => console.error(error))
-    axios({
-      method: 'post',
-      url: '/user/12345',
-      data: {
-        firstName: 'Fred',
-        lastName: 'Flintstone'
-      }
-    });
+    
+    
   return (
     <div>
         <form onSubmit={handleSubmit (onSubmit)}>
