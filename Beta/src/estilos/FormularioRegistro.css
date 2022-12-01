@@ -1,0 +1,67 @@
+.formulario-registro{
+    display: flex;
+    flex-wrap: wrap;       
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    border-radius: 20px;
+    border: #FEFC22 2px solid;
+    width: 450px;
+    height: 520px;
+    padding: 60px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    border-width: 3px;
+    
+    
+
+}
+
+
+.datos{
+    
+    color: #000587;
+    font-size: 20px;
+    padding: 0px;
+    margin: 5px;
+    border-color: rgb(62, 102, 138);
+    font-family: calibri, sans-serif;
+    border-radius: 7px;
+    border-color: #0097BC;
+    cursor: pointer;
+    
+}
+
+.boton-enviar{
+    background-color: #0097BC;
+    border-color: #ED0494 ;
+    margin: 20px;
+    height: 33px;
+    width: 140px;
+    border-radius: 10px;
+    font-family: Loto, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #ED0494;
+}
+
+
+
+.nombre-app{
+    padding: 40px;
+    color: #ED0494;
+    font-size: 90px;
+    font-family: sans-serif; 
+
+}
+.registro-link{
+    color: #000587;
+    font-size: 20px;
+}
